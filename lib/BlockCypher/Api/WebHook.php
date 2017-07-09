@@ -321,6 +321,26 @@ class WebHook extends BlockCypherResourceModel
         $this->address = $address;
         return $this;
     }
+    
+    /**
+     * @return int
+     */
+    public function getConfirmations()
+    {
+        return $this->confirmations;
+    }
+
+    /**
+     * @param int $confirmation
+     * @return $this
+     */
+    public function setConfirmations($confirmations)
+    {
+        $this->confirmations = $confirmations;
+        return $this;
+    }
+
+
 
     /**
      * Only transactions with an output script of the provided type will be sent.

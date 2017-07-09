@@ -1,4 +1,4 @@
-# PHP REST API SDK for BlockCypher
+# Fixex PHP REST API SDK for BlockCypher
 
 ![Home Image](https://raw.githubusercontent.com/wiki/blockcypher/php-client/images/homepage.jpg)
 
